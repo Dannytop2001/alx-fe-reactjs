@@ -3,8 +3,8 @@ import UserProfile from './components/UserProfile'; // Correct import path
 
 function App() {
   return (
-    <div className="App">
-      <UserProfile /> {/* Correct usage of UserProfile */}
+    <div className="bg-blue-500 text-white p-10">
+      <h1>Hello, Tailwind!</h1>
     </div>
   );
 }
