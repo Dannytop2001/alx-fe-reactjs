@@ -1,7 +1,10 @@
+import React from 'react';
+import UserProfile from './components/UserProfile'; // Correct import path
+
 function App() {
   return (
     <div className="App">
-      <div className="bg-red-500 text-white p-4">Tailwind is working!</div>
+      <UserProfile /> {/* Correct usage of UserProfile */}
     </div>
   );
 }
