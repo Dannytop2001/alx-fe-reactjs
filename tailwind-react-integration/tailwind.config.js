@@ -1,7 +1,10 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  darkMode: false,
-  theme: { extend: {} },
-  variants: { extend: {} },
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}", // Add this to scan your source files for Tailwind classes
+  ],
+  theme: {
+    extend: {},
+  },
   plugins: [],
 };
