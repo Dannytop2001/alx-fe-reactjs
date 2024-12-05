@@ -1,0 +1,19 @@
+/* src/components/UserProfile/UserProfile.module.css */
+
+.container {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .image {
+    border: 2px solid #e2e8f0; /* Cool gray for image border */
+  }
+  
+  .heading {
+    font-weight: bold;
+  }
+  
+  .description {
+    line-height: 1.5;
+  }
+  
